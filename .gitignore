@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# backups
+/backups
+
+# testing
+/coverage
+
+# production
+/build
+
+/node-ogg
+/database
+/lib
+
+.env
+
+1369be19412d.json
+
+ab6841b582bac9e552f22d31ebbe8f3d.ogg
+asd.ogg
+audio.ogg
+audio1.ogg
+voice.ogg
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
